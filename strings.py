@@ -17,6 +17,10 @@ print(multi_line_str)
 name = "Shrey Talreja"
 
 print(name[2])
-name_len = str(len(name))
+name_len = len(name)
 
 print("Length of the name is : " + name_len)
+
+first  = "John"
+second = "Doe"
+print("Complete name  : " + first  + second)
