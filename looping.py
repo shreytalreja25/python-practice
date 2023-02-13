@@ -1,5 +1,5 @@
 # For loop : used for iterating a sequence in a known range.
-# TO-DO : Understand how and when to use break & continue
+# TO-DO : Understand how and when to use break , continue and pass in these loops
 str = 'Looping'
 
 for item in str:
