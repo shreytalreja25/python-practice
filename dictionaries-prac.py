@@ -18,3 +18,17 @@ del my_dict[3]
 
 for key,value in my_dict.items():
     print(str(key) + " : " + str(value))
+
+
+# There are many methods available for dictionaries in Python. Some of the most commonly used methods include:
+
+    # clear(): Removes all key-value pairs from the dictionary.
+    # copy(): Returns a shallow copy of the dictionary.
+    # get(key[, default]): Returns the value for a given key, or a default value if the key is not in the dictionary.
+    # items(): Returns a view of the dictionary's key-value pairs as a list of tuples.
+    # keys(): Returns a view of the dictionary's keys as a list.
+    # pop(key[, default]): Removes and returns the value for a given key, or a default value if the key is not in the dictionary.
+    # popitem(): Removes and returns an arbitrary key-value pair from the dictionary.
+    # setdefault(key[, default]): Returns the value for a given key, or sets a default value if the key is not in the dictionary.
+    # update([other]): Updates the dictionary with key-value pairs from another dictionary or iterable of key-value pairs.
+    # values(): Returns a view of the dictionary's values as a list.
