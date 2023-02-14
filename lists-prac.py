@@ -1,8 +1,11 @@
 # Lists are mutable collection of indexed objects that can contain a variety of data types
 
+# Ways to declare a list
+
 list1 = [1,2,3,4,5]
 list2 = ["A","B","C","D","E"]
 list3 = [True,"Hello World",1,"A"]
+list4 = ["A",[1,2,3],True,10.5] #Lists can also contain a list as an object
 
 # Ways to print a list
 
@@ -40,8 +43,14 @@ print(*list1)
 del list1[2]
 print(*list1)
 
-for i in list1:
-    list2 = []
-    print(i)
-    list1[i] = list2.push()
-    del list1[i]
+# We can iterate over a list
+
+for x in list4:
+    print(x,end=" ")
+
+
+# for i in list1:
+#     list2 = []
+#     print(i)
+#     list1[i] = list2.push()
+#     del list1[i]
