@@ -9,7 +9,7 @@ def tower_of_hanoi(n, source, destination, intermediate):
         print(f"Move disk {n} from {source} to {destination}")
         tower_of_hanoi(n-1,intermediate,destination,source)
 
-tower_of_hanoi(2,"A","B","C")
+tower_of_hanoi(64,"A","B","C")
 
 # def TowerOfHanoiALT(n, from_rod, to_rod, aux_rod):
 #     if n == 0:
