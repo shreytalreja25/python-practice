@@ -1,4 +1,4 @@
-# python-practice
+# Python Practice
 
 Just a repo to practice some basics of python
 
